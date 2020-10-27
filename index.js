@@ -26,3 +26,6 @@ sequelize.sync({force: false}).then( () => {
     const server = http.createServer(app);
     server.listen(port);
 });
+
+
+//final 
